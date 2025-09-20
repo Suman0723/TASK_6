@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with Default Values</title>
+</head>
+<body>
+    <center>
+  <form>
+    <table>
+    <!-- Text input -->
+    <tr>
+      <td>Name :</td>
+      <td><input type="text" value="suman" ></td>
+    </tr>
+
+    <!-- Email input -->
+   <tr>
+      <td>Email :</td>
+      <td><input type="text" value="fsfsf@gmail.com"></td>
+    </tr>
+
+    <!-- Password input -->
+   <tr>
+      <td>Password :</td>
+      <td><input type="text" value="fio866769"></td>
+    </tr>
+
+    <!-- Number input -->
+    <tr>
+      <td>Age :</td>
+      <td><input type="text" value="23"></td>
+    </tr>
+
+    <!-- Radio buttons (default checked) -->
+     <tr>
+      <td>Gender :</td>
+      <td><input type="radio" name="gender" >male<input type="radio" name="gender">female</td>
+     </tr>
+
+    <!-- Checkbox (default checked) -->
+     <tr>
+      <td>Skills :</td>
+      <td><input type="checkbox" id="html" checked>
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css">
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" checked>
+      <label for="js">JavaScript</label></td>
+     </tr>
+    <br>
+
+    <!-- Select dropdown (default selected) -->
+     <tr>
+      <td>Country :</td>
+      <td><select id="country">
+      <option value="us">USA</option>
+      <option value="in" selected>India</option>
+      <option value="uk">UK</option>
+    </select>
+      </td>
+     </tr>
+    <br>  
+
+    <!-- Textarea with default value -->
+      <tr>
+        <td>About You :</td>
+        <td><textarea rows="4" cols="10" placeholder="Write something about yourself...">I am a web developer.</textarea></td>
+      </tr>
+
+    <br>
+    <!-- Submit and Reset buttons -->
+    <tr>
+      <td><input type="submit" value="Submit"></td>
+      <td><input type="reset" value="Reset"></td>
+    </table>
+  </form>
+  </center>
+</body>
+</html>
